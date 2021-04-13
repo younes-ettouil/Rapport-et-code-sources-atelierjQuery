@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "numbersCalc";
+    src: url("../police/digital-7.ttf") format("truetype");
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px 1px 4px #000
+}
+
+h1 {
+    padding-top: 25px;
+    color: #333;
+    text-shadow: 1px 1px 3px #eee;
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.calc-card {
+    top: 20px;
+    width: 450px;
+    height: 560px;
+    padding: 10px 0;
+    padding-top: 20px;
+    margin: 0 auto;
+    background: #f3f2ee;
+    border-radius: 10px;
+    box-shadow: inset 0 0 12px #FFF, inset 0px 1px #E6E6E6, 0 1px 1px #323643, inset 0px 1px #7b839b, 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+#screen {
+    font-size: 100px;
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    line-height: 54px;
+    margin: 0 auto;
+    overflow: hidden;
+    left: 40px;
+    padding-right: 4px;
+    background: #ffffff;
+    text-align: right;
+    border-radius: 3px;
+    font-size: 26px;
+    color: #111;
+    font-family: 'numbersCalc';
+    margin-top: -20px;
+}
+
+#screen:focus {
+    outline: none;
+}
+
+.buttons {
+    width: 340px;
+    margin: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 10px;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 10px;
+}
+
+button {
+    width: 65px;
+    height: 70px;
+    padding: 0;
+    outline: none;
+    margin: 0px 0px 30px 5px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    color: #fefefe;
+    font-family: "numbersCalc";
+    box-shadow: 0px 0px 3px 0px;
+    box-shadow: 10px;
+}
+
+#clearC {
+    background: #efa39f;
+}
+
+#clearCE {
+    background: #99A6F0;
+}
+
+#plus {
+    background: #CEDFFC;
+}
+
+#equal {
+    background: #F9E937;
+}
+
+.row {
+    margin-left: -30px;
+}
